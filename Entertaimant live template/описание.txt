@@ -1,0 +1,28 @@
+width 945
+height 1400
+html 1430
+
+Top{
+width 945
+height 190
+top bar color 44090d  border-top 963a3f
+search 295x85 color 520000    input 262x27
+navigation
+
+header{945x315
+image
+latest articles width320 color#dbddc4
+
+latest poll320x265
+
+bottom panel{945x345
+ringtone
+wallpapers295x345
+games
+
+footer{
+height185
+
+latest video{612x264 colorbabd99
+video list	
+video

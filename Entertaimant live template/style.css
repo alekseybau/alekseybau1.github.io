@@ -1,0 +1,271 @@
+*{
+	margin: 0;
+	padding: 0;
+
+}
+body{
+	width: 1200px;
+	height: 1400px;
+	margin: 0 auto;
+	background-color: lightgray;
+	border:1px solid black;
+	
+}
+#wrapper{
+	width: 945px;
+	height: 1400px;
+	display: flex;
+	flex-direction:column;
+	justify-content:space-between;
+	align-items:center;
+	margin: 0 auto;
+}
+#top{
+	width: 1200px;
+	height: 190px;
+	margin: 0 0;
+	display: flex;
+	flex-direction:column;
+	align-items:center;
+
+}
+.top_bar{
+	width: 100%;
+	height: 40px;
+	background-color: #44090d;
+	display: flex;
+	flex-direction:row;
+	justify-content:space-around;
+	color: white;
+	border-top: 2p solid #963a3f;
+}
+.top_link{
+	width: 150px;
+	display: flex;
+	flex-direction:row;
+	justify-content:space-around;
+	align-items:center;
+	
+}
+.top_link a{
+	color: white;
+}
+.search{
+	width: 285px;
+	height: 85px;
+	display: flex;
+	flex-direction:column;
+	justify-content:space-around;
+
+}
+.search input{
+	display: block;
+	width: 267px;
+	height: 27px;
+}
+.search ul{
+	width: 267px;
+	display: flex;
+	flex-direction:row;
+	justify-content:space-around;
+	align-items:center;
+}
+.search li{
+	list-style: none;
+	display: flex;
+	flex-direction:row;
+	justify-content:space-between;
+	align-items:center;
+}
+.large_bar{
+	width: 100%;
+	height: 110px;
+	background-color: #44090d;
+	display: flex;
+	flex-direction:row;
+	justify-content:space-around;
+	color: white;
+}
+.navigations{
+	width: 940px;
+	height: 40px;
+	background-color: #44090d;
+	border-radius: 0 0 10px 10px;
+	display: flex;
+	flex-direction:row;
+	align-items:center;
+	justify-content:space-around;
+}
+.navigations a{
+	display: flex;
+	flex-direction:row;
+	align-items:center;
+	justify-content:space-between;
+	color: white;
+	text-decoration: none;
+}
+#header{
+	width: 945px;
+	height: 315px;
+	display: flex;
+	flex-direction:row;
+	justify-content:space-between;
+}
+.img_container{
+	width: 582px;
+	height: 264px;
+	border:1px solid black;
+	background: url("img/layer14.png") 50% 50%;
+	border-radius: 8px;
+}
+.mask_container{
+	width: 582px;
+	height: 120px;
+	margin-top: 144px;
+	background-color: #44090d;
+	opacity: 0.7;
+	color: white;
+
+	
+}
+.mask_container a{
+	display: block;
+	width: 85px;
+	height: 20px;
+	margin-left: 25px;
+	background-color: red;
+	border-radius: 6px;
+	float: right;
+	margin-right: 30px;
+	margin-top: 15px;
+	text-decoration: none;
+	color: white;
+	padding: 5px 5px 5px 20px;
+}
+
+.latest_articles {
+	width: 320px;
+	height: 315px;
+}
+.latest_articles li{
+	list-style: none;
+	display: block;
+	width: 320px;
+	height: 30px;
+	background-color: #dbddc4;
+}
+#video{
+	width: 945px;
+	height: 265px;
+	display: flex;
+	flex-direction:row;
+	justify-content:space-between;
+}
+.video_container{
+	display: block;
+	width: 276px;
+	height: 232px;
+	border:1px solid black;
+	border-radius: 10px;
+}
+
+#latest_poll{
+	display: block;
+	width: 320px;
+	height: 265px;
+	float: right;
+}
+.videos{
+	width: 300px;
+	height: 232px;
+	display: flex;
+	flex-direction:column;
+	justify-content: space-around;
+}
+.videos li{
+	display: block;
+	list-style: none;
+	
+}
+.videos li img{
+	width: 50px;
+	height: 40px;
+	float: left;
+	margin-right: 15px;
+
+}
+.videos li{
+	font-size: 12px;
+}
+#latest_poll{
+	width: 320px;
+	height: 232px;
+	border:1px solid black;
+	display: block;
+	background-color: #44090d;
+	border-radius: 7px;
+	color: white;
+	display: flex;
+	flex-direction:column;
+	justify-content:space-around;
+}
+#latest_poll form{	
+	margin-left: 15px;
+
+}
+
+#latest_poll li{
+	list-style: none;
+}
+
+#latest_poll .button{
+	display: flex;
+	flex-direction:row;
+	justify-content: flex-start;
+}
+
+#latest_poll button{
+	display: block;
+	width: 85px;
+	height: 30px;
+	background-color: red;
+	border-radius: 7px;
+	border:none;
+	color: white;
+	margin-left: 20px;
+}
+#bottom_panel{
+	width: 945px;
+	height: 360px;
+	display: flex;
+	flex-direction:row;
+	justify-content:space-between;
+}
+.bottom_post{
+	width: 267px;
+	height: 360px
+	display:flex;
+	flex-direction:column;
+	justify-content:space-between;
+	
+}
+.bottom_post p{
+	display: block;
+	width: 267px;
+	
+}
+
+footer .navigations{
+	margin:0 auto;
+	border-radius: 10px 10px 0 0;
+}
+.footer_logo{
+	width: 1200px;
+	background-color: #44090d;
+
+}
+.footer_logo h3, .footer_logo p{
+	display: inline-block;
+	margin-left: 250px;
+	color: white;
+}
